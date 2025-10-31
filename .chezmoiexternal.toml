@@ -1,4 +1,4 @@
-[".ssh/private_known_host"]
+[".config/test1.txt"]
     type = "file"
-    url = "https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim"
-    refreshPeriod = "5m"
+    url = "https://raw.githubusercontent.com/kempchen/dotdev1/refs/heads/main/dot_config/empty_test1.txt"
+    refreshPeriod = "1m"
