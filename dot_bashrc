@@ -17,3 +17,4 @@
 # alias cp='cp -i'
 # alias mv='mv -i'
 export PATH="$HOME/bin:$PATH"
+[ -r ~/mybash ] && . ~/mybash
