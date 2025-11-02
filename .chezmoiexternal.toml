@@ -2,3 +2,11 @@
     type = "file"
     url = "https://raw.githubusercontent.com/kempchen/dotdev1/refs/heads/main/dot_config/empty_test1.txt"
     refreshPeriod = "1m"
+
+[".config/myconf"]
+    type = "archive"
+    url = "https://github.com/kempchen/dotdev1/archive/refs/heads/main.zip"
+    exact = true
+    stripComponents = 3
+    include = ["*/dot_config/myconf/**"]
+    refreshPeriod = "1m"
